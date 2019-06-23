@@ -1,0 +1,28 @@
+.App-header {
+  background-color: #f080b2;
+  text-align: center;
+  height: 150px;
+  padding: 10px;
+  color: white;
+}
+
+.App-title {
+  font-size: 3em;
+  font-family: 'Fredoka One', cursive;
+}
+
+.App-intro {
+  font-size: 2em;
+  font-family: 'Mali', cursive;
+}
+
+.App-footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  background-color: #f080b2;
+  text-align: center;
+  height: 200px;
+  padding: 10px;
+  color: white;
+}
