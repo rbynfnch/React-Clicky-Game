@@ -64,10 +64,10 @@ render() {
                   ))}
       
             </Wrapper>
-            <footer className="App-footer">
+            {/* <footer className="App-footer">
                 
 
-            </footer>
+            </footer> */}
         </div>
 
     )
