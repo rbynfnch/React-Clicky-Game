@@ -11,6 +11,7 @@ class App extends Component {
         lol,
         clickedDollIds: [],
         score: 0,
+        highscore: 0,
         goal: 12,
         status: ""
     };
@@ -20,7 +21,8 @@ shuffleScoreCard = id => {
     let clickedDollIds = this.state.clickedDollIds;
 
     if(clickedDollIds.includes(id)){
-        this.setState({ clickedDollIds: [], score: 0, status: "Game Over! You lost. Click to try again!" });
+        this.setState({ clickedDollIds: [], score: 0, highscore: this.state.score, status: "Game Over! You lost. Click to try again!" });
+        console.log(this.state.highscore);
         return;
     }else{
         clickedDollIds.push(id)
@@ -48,7 +50,7 @@ render() {
                 <h1 className="App-title">LOL Surprise! Clicky Game</h1>
                     <p className="App-intro">Try not to click the same image twice!</p>
             </header>
-            <Score total={this.state.score}
+            <Score total={this.state.score} highscore={this.state.highscore}
             goal={12}
             status={this.state.status}
             />
