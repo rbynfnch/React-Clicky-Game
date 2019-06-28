@@ -1,19 +1,19 @@
 [
     {
     "id": 1,
-    "image": "../assets/images/LOL-1.jpg"
+    "image": "./assets/images/LOL-1.jpg"
 },
     {
     "id": 2,
-    "image": "../assets/images/LOL-2.jpg"
+    "image": "../../assets/images/LOL-2.jpg"
 },
     {
     "id": 3,
-    "image": "../assets/images/LOL-3.jpg"
+    "image": "../../assets/images/LOL-3.jpg"
 },
     {
     "id": 4,
-    "image": "../assets/images/LOL-4.jpg"
+    "image": "../assets/images/LOL-13.jpg"
 },
     {
     "id": 5,
